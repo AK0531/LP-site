@@ -32,7 +32,7 @@
 
 .text1 {
   font-size: 80px;
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   position: absolute;
   top: 20%;
   left: 5%;
@@ -63,17 +63,32 @@
 
 .news {
   position: relative;
-  padding-left: 100px;
+  background-color: white;
   padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.news-list {
+  position: absolute;
+  top: 300px;
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  width: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .news1 {
+  position: absolute;
+  left: 350px;
   font-size: 12px;
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   color: rgb(124, 37, 85);
 }
 
 .news2 {
+  position: absolute;
+  left: 350px;
   font-size: 30px;
   padding: 10px 0;
 }
@@ -86,9 +101,9 @@
   background-color: rgb(124, 37, 85);
 }
 
-.up1:nth-child(1) {
-  border-top: 1px solid #ddd;
-  width: 600px;
+.up1 {
+  border-bottom: 1px solid #ddd;
+  width: 500px;
 }
 
 .up1 {
@@ -96,19 +111,23 @@
 }
 
 .up1:nth-child(5) {
-  border-bottom: 1px solid #ddd;
-  width: 600px;
+  margin-bottom: 10px;
 }
 
 .about {
   position: relative;
+  top: 300px;
+  margin-top: 50px;
   padding-top: 100px;
+  background-color: rgb(194, 193, 193);
+  width: 100%;
+  height: 400px;
 }
 
 .about1 {
   position: absolute;
   font-size: 12px;
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   color: rgb(124, 37, 85);
   left: 50%;
   padding: 20px;
@@ -120,34 +139,36 @@
   top: 130px;
   font-size: 18px;
   left: 50%;
-  padding: 20px;
+  padding: 30px;
   transform: translate(-50%, -50%);
 }
 
 .about-img1 {
   position: absolute;
   top: 160px;
-  left: 60%;
+  left: 55%;
   width: 30%;
 }
 
 .about-text {
   position: absolute;
-  font-size: 20px;
+  font-size: 18px;
   top: 160px;
-  left: 100px;
+  left: 160px;
   line-height: 30px;
 }
 
 .service {
   position: relative;
-  padding-top: 350px;
-  padding-left: 100px;
+  padding-top: 1100px;
+  display: inline-block;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .service1 {
   font-size: 12px;
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   color: rgb(124, 37, 85);
 }
 
@@ -158,8 +179,7 @@
 }
 
 .table {
-  width: 80%;
-  height: 180px;
+  width: 800px;
   margin-top: 50px;
 }
 
@@ -201,44 +221,48 @@
 .education1 {
   position: absolute;
   width: 350px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
-  top: 600px;
-  left: 130px;
-  padding: 20px;
+  padding-top: 170px;
+  padding-left: 40px;
 }
 
 .education2 {
   position: absolute;
   padding-top: 30px;
   padding-left: 180px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 
 .blog {
   position: relative;
-  padding-top: 100px;
-  padding-left: 100px;
+  padding-top: 50px;
+  background-color: rgb(194, 193, 193);
+  width: 100%;
+  height: 450px;
 }
 
 .blog1 {
   font-size: 12px;
-  font-family: 'Pangolin', cursive;
+  font-family: "Pangolin", cursive;
   color: rgb(124, 37, 85);
+  padding-left: 200px;
 }
 
 .blog2 {
   margin-top: 10px;
   position: absolute;
   font-size: 18px;
+  padding-left: 200px;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
-  width: 80%;
   padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .blog-tag1 {
@@ -271,16 +295,16 @@
   background-color: rgb(124, 37, 85);
 }
 
-
 .card {
   width: 300px;
   border: 1px solid #ddd;
   border-radius: 10px;
-
 }
 
 .text-box {
   padding: 15px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
 }
 
 .card-img1 {
@@ -289,7 +313,7 @@
   position: relative;
 }
 
-.title  {
+.title {
   font-size: 15px;
   line-height: 20px;
 }
@@ -311,10 +335,11 @@
 
 .push {
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: 1px solid rgb(124, 37, 85);
   padding: 10px 20px;
-  margin: 20px;
+  margin: 30px;
   border-radius: 20px;
   color: rgb(124, 37, 85);
   background-color: white;
@@ -322,6 +347,24 @@
 
 .table2 {
   position: relative;
+}
+
+.table-text1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Pangolin", cursive;
+  color: rgb(124, 37, 85);
+  margin: 30px;
+  left: 100px;
+}
+
+.table-text2 {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 18px;
+  margin: 30px;
+  top: 20px;
+  left: 100px;
 }
 
 .table3 {
@@ -332,7 +375,8 @@
   border-collapse: collapse;
 }
 
-.table3 th, .table3 td {
+.table3 th,
+.table3 td {
   border: 1px solid #ccc;
   padding: 20px;
 }
@@ -381,14 +425,14 @@ footer {
   left: 50%;
   top: 580px;
   padding: 20px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .form1 {
   position: absolute;
   top: 700px;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,14 +449,14 @@ footer {
 }
 
 .form:before {
-  content:'';
+  content: "";
   position: absolute;
   top: 80px;
   width: 3px;
   height: 40px;
-  background-color:rgb(124, 37, 85);
+  background-color: rgb(124, 37, 85);
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .copylight {
@@ -420,5 +464,5 @@ footer {
   top: 800px;
   font-size: 12px;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
