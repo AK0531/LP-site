@@ -1,0 +1,424 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+}
+
+.nav-list {
+  display: flex;
+  padding: 20px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.catchcopy {
+  position: relative;
+}
+
+.img1 {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+
+.text1 {
+  font-size: 80px;
+  font-family: 'Pangolin', cursive;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  line-height: 160px;
+  color: rgb(124, 37, 85);
+}
+
+.growth {
+  color: rgb(74, 148, 167);
+}
+
+.text2 {
+  font-size: 30px;
+  font-weight: bolder;
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  color: rgb(124, 37, 85);
+}
+
+.text3 {
+  font-size: 15px;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  color: black;
+}
+
+.news {
+  position: relative;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.news1 {
+  font-size: 12px;
+  font-family: 'Pangolin', cursive;
+  color: rgb(124, 37, 85);
+}
+
+.news2 {
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.news3 {
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(124, 37, 85);
+}
+
+.up1:nth-child(1) {
+  border-top: 1px solid #ddd;
+  width: 600px;
+}
+
+.up1 {
+  padding: 20px;
+}
+
+.up1:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+  width: 600px;
+}
+
+.about {
+  position: relative;
+  padding-top: 100px;
+}
+
+.about1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'Pangolin', cursive;
+  color: rgb(124, 37, 85);
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.about2 {
+  position: absolute;
+  top: 130px;
+  font-size: 18px;
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.about-img1 {
+  position: absolute;
+  top: 160px;
+  left: 60%;
+  width: 30%;
+}
+
+.about-text {
+  position: absolute;
+  font-size: 20px;
+  top: 160px;
+  left: 100px;
+  line-height: 30px;
+}
+
+.service {
+  position: relative;
+  padding-top: 350px;
+  padding-left: 100px;
+}
+
+.service1 {
+  font-size: 12px;
+  font-family: 'Pangolin', cursive;
+  color: rgb(124, 37, 85);
+}
+
+.service2 {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 18px;
+}
+
+.table {
+  width: 80%;
+  height: 180px;
+  margin-top: 50px;
+}
+
+.image4 {
+  padding-top: 20px;
+  position: absolute;
+  width: 120px;
+  left: 20%;
+}
+
+.image2 {
+  padding: 10%;
+  width: 120px;
+  float: left;
+}
+
+.image3 {
+  padding: 10%;
+  width: 120px;
+  float: left;
+}
+
+.box1 {
+  width: 50%;
+  background-color: rebeccapurple;
+  padding: 15px 0;
+}
+
+.box2 {
+  height: 50%;
+  background-color: rgb(167, 42, 167);
+}
+
+.box3 {
+  height: 50%;
+  background-color: rgb(169, 126, 212);
+}
+
+.education1 {
+  position: absolute;
+  width: 350px;
+  font-size: 16px;
+  color: white;
+  top: 600px;
+  left: 130px;
+  padding: 20px;
+}
+
+.education2 {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 180px;
+  font-size: 16px;
+  color: white;
+}
+
+.blog {
+  position: relative;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.blog1 {
+  font-size: 12px;
+  font-family: 'Pangolin', cursive;
+  color: rgb(124, 37, 85);
+}
+
+.blog2 {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 18px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-top: 50px;
+}
+
+.blog-tag1 {
+  position: absolute;
+  left: 100px;
+  top: 165px;
+  padding: 5px 15px;
+  border-radius: 10px 0 0 0;
+  color: white;
+  background-color: rgb(124, 37, 85);
+}
+
+.blog-tag2 {
+  position: absolute;
+  left: 430px;
+  top: 165px;
+  padding: 5px 15px;
+  border-radius: 10px 0 0 0;
+  color: white;
+  background-color: rgb(124, 37, 85);
+}
+
+.blog-tag3 {
+  position: absolute;
+  left: 750px;
+  top: 165px;
+  padding: 5px 15px;
+  border-radius: 10px 0 0 0;
+  color: white;
+  background-color: rgb(124, 37, 85);
+}
+
+
+.card {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+}
+
+.text-box {
+  padding: 15px;
+}
+
+.card-img1 {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.title  {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.date1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  color: gray;
+  padding: 30px 0 0 20px;
+}
+
+.coachtech {
+  color: gray;
+  padding: 30px 0 0 20px;
+}
+
+.push {
+  position: absolute;
+  left: 40%;
+  border: 1px solid rgb(124, 37, 85);
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 20px;
+  color: rgb(124, 37, 85);
+  background-color: white;
+}
+
+.table2 {
+  position: relative;
+}
+
+.table3 {
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  width: 60%;
+  border-collapse: collapse;
+}
+
+.table3 th, .table3 td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.table3 th {
+  background: rgb(143, 142, 142);
+}
+
+.bottom-img {
+  position: relative;
+  display: flex;
+  top: 500px;
+}
+
+.bottom-img1 {
+  width: 50%;
+}
+
+.bottom-img2 {
+  width: 50%;
+}
+
+.information {
+  position: absolute;
+  font-size: 40px;
+  left: 220px;
+  top: 120px;
+  color: white;
+}
+
+.interview {
+  position: absolute;
+  font-size: 40px;
+  left: 800px;
+  top: 120px;
+  color: white;
+}
+
+footer {
+  position: relative;
+}
+
+.form {
+  font-size: 17px;
+  position: absolute;
+  left: 50%;
+  top: 580px;
+  padding: 20px;
+  transform: translate(-50%,-50%);
+}
+
+.form1 {
+  position: absolute;
+  top: 700px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  background: linear-gradient(90deg, #d477cc, #a32062);
+  box-shadow: 5px 10px 0 rgb(54, 5, 34);
+}
+
+.mail-icon {
+  width: 10%;
+  margin: 10px;
+}
+
+.form:before {
+  content:'';
+  position: absolute;
+  top: 80px;
+  width: 3px;
+  height: 40px;
+  background-color:rgb(124, 37, 85);
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.copylight {
+  position: absolute;
+  top: 800px;
+  font-size: 12px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
