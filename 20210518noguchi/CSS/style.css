@@ -145,7 +145,7 @@
 
 .about-img1 {
   position: absolute;
-  top: 160px;
+  top: 180px;
   left: 55%;
   width: 30%;
 }
@@ -153,15 +153,16 @@
 .about-text {
   position: absolute;
   font-size: 18px;
-  top: 160px;
+  top: 180px;
   left: 160px;
   line-height: 30px;
 }
 
 .service {
   position: relative;
-  padding-top: 1100px;
+  padding-top: 500px;
   display: inline-block;
+  top: 350px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -178,7 +179,7 @@
   font-size: 18px;
 }
 
-.table {
+.table1 {
   width: 800px;
   margin-top: 50px;
 }
@@ -236,7 +237,6 @@
 }
 
 .blog {
-  position: relative;
   padding-top: 50px;
   background-color: rgb(194, 193, 193);
   width: 100%;
@@ -267,8 +267,8 @@
 
 .blog-tag1 {
   position: absolute;
-  left: 100px;
-  top: 165px;
+  top: 0px;
+  left: 0;
   padding: 5px 15px;
   border-radius: 10px 0 0 0;
   color: white;
@@ -277,8 +277,8 @@
 
 .blog-tag2 {
   position: absolute;
-  left: 430px;
-  top: 165px;
+  left: 0px;
+  top: 0px;
   padding: 5px 15px;
   border-radius: 10px 0 0 0;
   color: white;
@@ -287,8 +287,8 @@
 
 .blog-tag3 {
   position: absolute;
-  left: 750px;
-  top: 165px;
+  left: 0;
+  top: 0;
   padding: 5px 15px;
   border-radius: 10px 0 0 0;
   color: white;
@@ -296,6 +296,7 @@
 }
 
 .card {
+  position: relative;
   width: 300px;
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -466,3 +467,4 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
