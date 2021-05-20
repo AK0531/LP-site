@@ -71,16 +71,19 @@
 .news1 {
   position: absolute;
   left: 350px;
+  top: 50px;
   font-size: 12px;
   font-family: "Pangolin", cursive;
   color: rgb(124, 37, 85);
+  margin: 10px;
 }
 
 .news2 {
   position: absolute;
   left: 350px;
+  top: 70px;
   font-size: 30px;
-  padding: 10px 0;
+  margin: 10px;
 }
 
 
