@@ -68,16 +68,6 @@
   margin-bottom: 100px;
 }
 
-.news-list {
-  position: absolute;
-  top: 300px;
-  border-top: 3px solid #ddd;
-  border-bottom: 3px solid #ddd;
-  width: 600px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .news1 {
   position: absolute;
   left: 350px;
@@ -91,6 +81,17 @@
   left: 350px;
   font-size: 30px;
   padding: 10px 0;
+}
+
+
+.news-list {
+  position: absolute;
+  top: 300px;
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+  width: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .news3 {
